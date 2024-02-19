@@ -7,7 +7,7 @@ GradientButton::GradientButton(QWidget* parent)
       m_clickedColor(QColor(9, 39, 176)),
       m_gradientColor(m_normalColor),
 	  m_cornerRadius(0),
-	  m_textColor(QColor(0, 0, 0)),
+	  m_textColor(QColor(255, 255, 255)),
 	  m_iconPath(QString("")),
 	  m_gradientTime(200),
 	  m_iconX(20)
